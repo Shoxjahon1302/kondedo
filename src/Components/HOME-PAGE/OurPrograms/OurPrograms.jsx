@@ -18,13 +18,13 @@ export default function OurPrograms() {
           " linear-gradient(90.87deg, #ffecd6 0.69%, #09b9ad 530.75%)",
       }}
     >
-      <div className='container'>
+      <div className="container">
         <h1 className="text-[#1b1b1b] text-[55px] text-center font-semibold pt-[80px] pb-[15px] xl:text-[45px] lg:text-[40px] md:text-[45px] sm:text-[30px]">
-          Our Programs
+          Bizning Loyihalar
         </h1>
         <p className="text-[#424242] text-[18px] text-center font-normal w-[855] mb-[40px] h-[60px]">
-          Kindedo opened its doors in 1984 with a unique vision to provide its
-          students <br /> with a globally focused study of arts.
+          Kindedo o'z eshiklarini 1984 yilda o'zining noyob g'oyasi bilan ochdi
+          bolalar <br /> san'atni global miqyosda o'rganish uchun.
         </p>
         <Swiper
           className="mySwiper"
@@ -78,30 +78,29 @@ export default function OurPrograms() {
                 href="#!"
                 className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#00bbae]"
               >
-                Settling
+                Joylashish
               </a>
               <p className="text-[#424242] m-[15px]  text-[18px]">
-                To round out our weekend of celebra tions, we are holding our
-                reunion.
+                Dam olish kunlarini nishonlash uchun biz bayramimizni
+                o'tkazmoqdamiz.
               </p>
-
               <div className="box w-[368px] h-[78px] bg-[#00bbae]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
                 <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
                 <div className="flex-col flex border-dashed border-r-2 items-center pr-8     text-[white] ">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
                 <div className="flex-col flex  text-[white]">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
               </div>
@@ -125,30 +124,29 @@ export default function OurPrograms() {
                 href="#!"
                 className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#ff9b24]"
               >
-                Play Group
+                Jamoaviy O'yinlar
               </a>
               <p className="text-[#424242] m-[15px]  text-[18px]">
-                We will be magically transform the School’s Sports Centre into a
-                full game area.
+                Biz sehrli tarzda maktab sport markaziga aylantiramiz.
               </p>
 
               <div className="box w-[368px] h-[78px] bg-[#ff9b24]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
                 <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
                 <div className="flex-col flex border-dashed border-r-2 items-center pr-8     text-[white] ">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
                 <div className="flex-col flex  text-[white]">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
               </div>
@@ -172,30 +170,29 @@ export default function OurPrograms() {
                 href="#!"
                 className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#ff5778]"
               >
-                Pre-Nursery
+                Bolalar bog'chasigacha
               </a>
               <p className="text-[#424242] m-[15px]  text-[18px]">
-                Kindedo not only for all our dedicated 2023 reunion year groups
-                program.
+                Best nafaqat barcha bag'ishlangan 2023-yildagi uchrashuvlar yili
+                guruhlarimiz uchun dasturlar.
               </p>
-
               <div className="box w-[368px] h-[78px] bg-[#ff5778]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
                 <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
                 <div className="flex-col flex border-dashed border-r-2 items-center pr-8     text-[white] ">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
                 <div className="flex-col flex  text-[white]">
                   <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
                   <h5 className="text-[18px]  font-medium text-center  ">
-                    age
+                    yosh
                   </h5>
                 </div>
               </div>

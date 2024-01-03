@@ -2,36 +2,36 @@ import React from "react";
 import "./about.css";
 import Collapse from "../../assets/Collapse";
 export default function About() {
-
   const data = [
     {
-      title: "What Is The Best Age To Start Kindergarten?",
-      text: ` Some states and countries implement mandatory early
-      childhood education. With such rules, many preschool and
-      kindergarten learning centers are built.`,
+      title: "Bolalar bog'chasini boshlash uchun eng yaxshi yosh qaysi?",
+      text: ` Ba'zi shtatlar va mamlakatlar majburiy ravishda erta amalga oshiriladi
+      bolalik ta'limi. Bunday qoidalar bilan ko'plab maktabgacha va
+      bolalar bog'chalari o'quv markazlari qurildi.`,
     },
     {
-      title: "Which Is The Best Preschool For Your Child ?",
-      text: `  Right after you book your party, you’ll receive an email
-      confirming the date, time, and details about what’s included
-      in the package you’ve selected result`,
+      title:
+        "Farzandingiz uchun eng yaxshi maktabgacha ta'lim muassasasi qaysi?",
+      text: `  Partiyangizni bron qilganingizdan so'ng, sizga elektron pochta xabari keladi
+      sana, vaqt va kiritilgan narsalar haqidagi tafsilotlarni tasdiqlash
+      to'plamda siz tanlagan natija`,
     },
     {
-      title: "What Is The Toution Fee On First Year?",
-      text: `There will also be some fantastic outdoor entertainment,
-      desserts and drinks, plus tours of the School for those who
-      want to continue the celebrations.`,
+      title: "Birinchi yil to'lovi qancha?",
+      text: `Bundan tashqari, ajoyib ochiq havoda o'yin-kulgilar bo'ladi,
+      shirinliklar va ichimliklar, shuningdek, kimlar uchun Maktab bo'ylab sayohatlar
+      bayramlarni davom ettirmoqchi.`,
     },
   ];
 
   return (
     <>
       <div className="bg-white p-[120px_0px_60px] sm:p-[30px] md:p-[30px]">
-        <div className='container'>
+        <div className="container">
           <div className="flex justify-around items-center flex-wrap">
             <div className="md:w-full">
               <h2 className="text-[#1b1b1b] text-[55px] font-semibold mb-[25px] xl:text-[45px] lg:text-[40px] md:text-[45px] sm:text-[30px]">
-                Know More <br /> About Kindedo
+                Best Haqida <br /> ko'proq bilish
               </h2>
               <div className="flex flex-col mb-[20px]">
                 {data.map((item, idx) => (

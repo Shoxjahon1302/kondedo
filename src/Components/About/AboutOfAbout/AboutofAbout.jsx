@@ -29,7 +29,7 @@ export default function AboutofAbout() {
             </div>
             <div className="flex-col  flex text-[#fff]">
               <h3 className="text-[55px] text-[#1b1b1b] font-semibold mb-[20px] xl:text-[45px] lg:text-[40px] md:text-[45px] sm:text-[30px] ">
-                Best for Your Kids
+                Eng yaxshisi sizning bolalaringiz uchun
               </h3>
               <p className="text-[18px] text-[#424242] font-normal mb-[55px] w-[691px] h-[90px] xl:w-auto  ">
                 Being brave isn’t always a grand gesture sometimes it just means

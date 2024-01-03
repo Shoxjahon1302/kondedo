@@ -10,13 +10,14 @@ import "./teacher.css";
 export default function Teacher() {
   return (
     <div className="p-[120px_0px] bg-white w-full">
-      <div className='container'>
+      <div className="container">
         <h1 className="text-[55px] text-[#2b2b2b]  text-center font-semibold ">
-          Our Best Teachers
+          Bizning eng yaxshi o'qituvchilarimiz
         </h1>
         <p className="mt-[20px]   mb-[30px] text-[15px] font-medium text-center text-[#424242]">
-          With the help of teachers and the environment as the third teacher,
-          students <br /> have opportunities to confidently take risks.
+          Uchinchi o'qituvchi, talabalar sifatida o'qituvchilar va atrof-muhit
+          <br />
+          yordamida ishonch bilan tavakkal qilish imkoniyatiga ega.
         </p>
         <Swiper
           className="mySwiper relative p-[0px_0px_0px_50px] flex teacher-slide-home"
@@ -75,10 +76,10 @@ export default function Teacher() {
                 }}
               >
                 <h3 className="text-[23px] text-[#1b1b1b] text-center font-medium">
-                  Emmy Jonas
+                  Nilufar Usmonova
                 </h3>
                 <p className="text-[16px] text-[#1b1b1b] text-center font-normal">
-                  Teacher
+                  O'qituvchi
                 </p>
                 <div className="icons gap-4 justify-center  flex bg-[#FF9B24] -ml-[15px] p-3 w-[290px] rounded-2xl absolute top-[70%]">
                   <FaFacebookF className="text-white text-[18px]  hover:text-[red] " />
@@ -104,10 +105,10 @@ export default function Teacher() {
                 }}
               >
                 <h3 className="text-[23px] text-[#1b1b1b] text-center font-medium">
-                  Frances R.
+                  Munisa Rizayeva
                 </h3>
                 <p className="text-[16px] text-[#1b1b1b] text-center font-normal">
-                  Teacher
+                  O'qituvchi
                 </p>
                 <div className="icons gap-4 justify-center  flex bg-[#FF9B24] -ml-[15px] p-3 w-[290px] rounded-2xl absolute top-[70%]">
                   <FaFacebookF className="text-white text-[18px]  hover:text-[red] " />
@@ -134,10 +135,10 @@ export default function Teacher() {
                 }}
               >
                 <h3 className="text-[23px] text-[#1b1b1b] text-center font-medium">
-                  Cecelia D.
+                  Sitora Farmonova
                 </h3>
                 <p className="text-[16px] text-[#1b1b1b] text-center font-normal">
-                  Teacher
+                  O'qituvchi
                 </p>
                 <div className="icons gap-4 justify-center  flex bg-[#FF9B24] -ml-[15px] p-3 w-[290px] rounded-2xl absolute top-[70%]">
                   <FaFacebookF className="text-white text-[18px]  hover:text-[red] " />
@@ -164,10 +165,10 @@ export default function Teacher() {
                 }}
               >
                 <h3 className="text-[23px] text-[#1b1b1b] text-center font-medium">
-                  Olinda L.
+                  Nilufar Usmonova
                 </h3>
                 <p className="text-[16px] text-[#1b1b1b] text-center font-normal">
-                  Teacher
+                  O'qituvchi
                 </p>
                 <div className="icons gap-4 justify-center  flex bg-[#FF9B24] -ml-[15px] p-3 w-[290px] rounded-2xl absolute top-[70%]">
                   <FaFacebookF className="text-white text-[18px]  hover:text-[red] " />

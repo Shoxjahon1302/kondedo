@@ -12,11 +12,11 @@ export default function News({ container }) {
       <div className="p-[120px_120px_0px] xl:p-[20px]  md:p-[30px_30px_0px] sm:p-[8px] h-[750px]">
         <div className={container}>
           <h2 className="text-[#1b1b1b] text-[55px] xl:text-[60px] lg:text-[50px]  md:text-[45px] md:mb-[45px] sm:text-[40px] font-semibold ">
-            Kindedo News
+            Best yangliklari
           </h2>
           <p className="text-[#1b1b1b] text-[18px] font-normal mb-[40px] w-[636px] h-[60px] lg:w-auto lg:mb-[60px]">
-            It is our goal to provide age appropriate opportuniy for every child
-            enrolled in Kindedo Kids Club enrichment classes.
+            Bizning maqsadimiz BEst Kids Club bo'yicha mashg'ulotlarga
+            kiritilgan har bir bolaga yoshiga mos imkoniyat yaratishdir.
           </p>
           <Swiper
             className="mySwiper relative p-[0px_0px_0px_50px] flex teacher-slide-home"
@@ -57,7 +57,7 @@ export default function News({ container }) {
             }}
           >
             <SwiperSlide>
-              <div className="relative w-[416px] mb-[20px] border-[2px] rounded-lg border-[#E6E6E6] hover:shadow-xl duration-300  scs-ali ">
+              <div className="relative w-[416px] overflow-hidden mb-[20px] border-[2px] rounded-lg border-[#E6E6E6] hover:shadow-xl duration-300  scs-ali ">
                 <div className="overflow-hidden ">
                   <img
                     src="https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/blog/2.jpg"
@@ -65,22 +65,22 @@ export default function News({ container }) {
                     alt=" "
                   />
                   <div className="absolute top-[54%] left-[5%] bg-[#ffb924] p-1 text-[16px] font-normal text-[#fff] rounded">
-                    '22 Jan 2022'
+                    '2022-yil 20-yanvar'
                   </div>
                 </div>
                 <div className="p-[20px_25px_17px] border-[2px] border-[#E6E6E6]">
                   <div className="flex gap-5 items-center">
                     <div className="flex items-center gap-2">
                       <BiUser className=" w-[14px] h-[18px] text-[#00BBAE]" />{" "}
-                      by Alex
+                      Nilufar
                     </div>
                     <div className="flex items-center gap-2 ">
-                      <BiCommentDetail className="text-[#00BBAE]" /> '0'
-                      Comments
+                      <BiCommentDetail className="text-[#00BBAE]" /> '0' Izohlar
                     </div>
                   </div>
-                  <p className="p-1  text-[23px] text-[#1b1b1b] font-medium">
-                    Tips to Understand Your Child Better -AGuide for Parents!
+                  <p className="p-1 text-[23px] text-[#1b1b1b] font-medium">
+                    Farzandingizni yaxshiroq tushunish uchun maslahatlar
+                    -Ota-onalar uchun qo'llanma!
                   </p>
                 </div>
               </div>
@@ -93,24 +93,23 @@ export default function News({ container }) {
                     className="w-full h-[227px] rounded-[6px] hover:scale-150 duration-500"
                     alt=" "
                   />
-                  <div className="absolute top-[54%] left-[5%] bg-[#ffb924] p-1 text-[16px] font-normal text-[#fff] rounded">
-                    22 Nov 2022
+                  <div className="absolute top-[50%] left-[5%] bg-[#ffb924] p-1 text-[16px] font-normal text-[#fff] rounded">
+                    '2022-yil 20-noyabr'
                   </div>
                 </div>
                 <div className="p-[20px_25px_17px] border-[2px] border-[#E6E6E6]">
                   <div className="flex gap-5 items-center">
                     <div className="flex items-center gap-2">
                       <BiUser className=" w-[14px] h-[18px] text-[#00BBAE]" />{" "}
-                      by Alex
+                      Rayhona
                     </div>
                     <div className="flex items-center gap-2 ">
-                      <BiCommentDetail className="text-[#00BBAE]" /> '0' 04
-                      Comments
+                      <BiCommentDetail className="text-[#00BBAE]" /> '0' Izohlar
                     </div>
                   </div>
                   <p className="p-1  text-[23px] text-[#1b1b1b] font-medium">
-                    Why Toys for Preschoolers are Important - a small ready
-                    setup
+                    Nima uchun maktabgacha yoshdagi bolalar uchun o'yinchoqlar
+                    muhim - kichik tayyor sozlash; o'rnatish;
                   </p>
                 </div>
               </div>
@@ -124,22 +123,22 @@ export default function News({ container }) {
                     alt=" "
                   />
                   <div className="absolute top-[54%] left-[5%] bg-[#ffb924] p-1 text-[16px] font-normal text-[#fff] rounded">
-                    22 Dec 2022
+                    '2022-yil 18-dekabr'
                   </div>
                 </div>
                 <div className="p-[20px_25px_17px] border-[2px] border-[#E6E6E6]">
                   <div className="flex gap-5 items-center">
                     <div className="flex items-center gap-2">
                       <BiUser className=" w-[14px] h-[18px] text-[#00BBAE]" />{" "}
-                      by Alex
+                      Nargiza
                     </div>
                     <div className="flex items-center gap-2 ">
-                      <BiCommentDetail className="text-[#00BBAE]" /> '0' 04
-                      Comments
+                      <BiCommentDetail className="text-[#00BBAE]" /> '0' Izohlar
                     </div>
                   </div>
                   <p className="p-1  text-[23px] text-[#1b1b1b] font-medium">
-                    Which Toys are Best for Preschool Kids in USA: A Quick Guide
+                    AQShdagi maktabgacha yoshdagi bolalar uchun qaysi
+                    o'yinchoqlar eng yaxshisidir: tezkor qo'llanma!
                   </p>
                 </div>
               </div>

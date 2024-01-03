@@ -16,12 +16,13 @@ export default function Section() {
       <section className="bg-white">
         <div className="container ">
           <h4 className="text-[55px] text-center font-semibold pt-[40px]  xl:text-[45px]  lg:text-[40px] md:text-[45px] sm:text-[30px] ">
-            Our Offerings
+            Bizning takliflarimiz
           </h4>
           <p className="text-[18px] text-center font-normal mt-[55px] pb-[40px] xl:mt-[30px]">
-            Our multi-level kindergarten programs cater to the age group of 2-5
-            years <br /> with a curriculum focussing children.
+            Bizning ko'p bosqichli bolalar bog'chasi dasturlarimiz 2-5 yoshdagi
+            bolalarga mo'ljallangan
           </p>
+          <br />
           <Swiper
             className="mySwiper p-[0px_0px_60px_40px]"
             pagination={true}
@@ -85,25 +86,24 @@ export default function Section() {
                     href="#!"
                     className="text-[32px] mt-[20px] text-[#1b1b1b] font-semibold text-center title-card "
                   >
-                    Sports Class
+                    Sport Sinfi
                   </a>
                 </div>
                 <p className="text-[18px] text-[#424242] mt-[20px] font-normal text-center text-card">
-                  Each day at Mother’s Pride is a cele bration! We celebrate
-                  all.
+                  Onalar iftixoridagi har bir kun bayramdir! Biz barchasini
+                  nishonlaymiz.
                 </p>
                 <div className="flex justify-center mt-9">
                   <Link to="/ClassDetails">
                     <button className=" btn-nonoeasd  w-[173px] h-[50px] rounded-3xl border-[#FF9B24] border">
-                      ClassDetails
+                      Tanishib Chiqish
                     </button>
                   </Link>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              {" "}
-              <div className="w-[416px] md:w-auto   h-[429px] p-[40px]  border-dashed  border-[2px] border-[#E9CFCF] scs-ali  card ">
+              <div className="w-[416px] md:w-auto h-[429px] p-[40px]  border-dashed  border-[2px] border-[#E9CFCF] scs-ali  card ">
                 <img
                   src="	https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/bg/bg-shape.jpg"
                   alt=""
@@ -116,23 +116,21 @@ export default function Section() {
                   />
                 </div>
                 <h2 className="text-[32px] mt-[20px] text-[#1b1b1b] font-semibold text-center title-card">
-                  Music Class
+                  Musiqa Sinfi
                 </h2>
                 <p className="text-[18px] text-[#424242] mt-[20px] font-normal text-center text-card">
-                  Indoor and out door activities that cater to all domains
-                  development.
+                  Barcha domenlarga mos keladigan ichki va tashqi eshiklar
+                  faoliyati rivojlantirish.
                 </p>
                 <div className="flex justify-center mt-9">
                   <button className=" btn-nonoeasd    w-[173px] h-[50px] rounded-3xl border-[#FF9B24] border">
-                    <NavLink to="ClassDetails">View Details</NavLink>
+                    <NavLink to="ClassDetails">Tanishib Chiqish</NavLink>
                   </button>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              {" "}
               <div className="w-[416px] md:w-auto  h-[429px] p-[40px]  border-dashed  border-[2px] border-[#E9CFCF] scs-ali card pb-[35%]">
-                {" "}
                 <img
                   src="	https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/bg/bg-shape.jpg"
                   alt=""
@@ -145,15 +143,15 @@ export default function Section() {
                   />
                 </div>
                 <h2 className="text-[32px] mt-[20px] text-[#1b1b1b] font-semibold text-center title-card">
-                  Drowing Class
+                  Rasm Sinfi
                 </h2>
                 <p className="text-[18px] text-[#424242] mt-[20px] font-normal text-center text-card">
-                  Our special rhyme books also them to phonetic sound of the
-                  words.
+                  Bizning maxsus qofiya kitoblarimiz ham ularning fonetik
+                  tovushidagi so'zlar.
                 </p>
                 <div className="flex justify-center mt-9">
                   <button className="btn-nonoeasd    w-[173px] h-[50px] rounded-3xl border-[#FF9B24] border">
-                    View Details
+                    Tanishib Chiqish
                   </button>
                 </div>
               </div>

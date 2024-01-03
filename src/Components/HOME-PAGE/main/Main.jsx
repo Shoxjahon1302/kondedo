@@ -5,7 +5,7 @@ import "./main.css";
 export default function Main() {
   return (
     <main className="bg-white">
-      <div className='cotntainer'>
+      <div className="cotntainer">
         <div
           className="flex lg:flex-wrap items-center justify-between  w-full pb-[100px]
         xl:p-[30px] lg:p-[40px_80px_100px_80px] sm:p-[20px]"
@@ -29,29 +29,32 @@ export default function Main() {
           </div>
           <div className="flex-col  flex text-[#fff]">
             <h3 className="text-[55px] text-[#1b1b1b] font-semibold mb-[20px] xl:text-[45px] lg:text-[40px] md:text-[45px] sm:text-[30px] ">
-              Best for Your Kids
+              Eng yaxshisi sizning <br /> bolalaringiz uchun
             </h3>
             <p className="text-[18px] text-[#424242] font-normal mb-[55px] w-[691px] h-[90px] xl:w-auto  ">
-              Being brave isn’t always a grand gesture sometimes it just means
-              having a go attempting that difficult question, offering an answer
-              in a lesson when you’re simply really trying new.
+              Jasoratli bo'lish har doim ham katta mahorat emas, ba'zida bu
+              shunchaki anglatadi o'sha qiyin savolga javob berishga urinib
+              ko'ring Agar siz haqiqatan ham yangilikni darsda sinab ko'rsangiz.
             </p>
             <div className="flex justify-around bg-[#00bbae] p-[16px_40px] w-[613px] h-[90px] rounded-3xl mb-[25px] xl:h-[109px] xl:w-[431px] md:w-[450px] ">
-              <div className="flex items-center xl:flex-col   border-white ">
-                <span className="text-[45px] xl:mt-[-15px]  font-semibold xl:text-[35px]">
+              <div
+                className="flex items-center xl:flex-col gap-1
+                border-white "
+              >
+                <span className="text-[45px] xl:mt-[-15px] font-semibold xl:text-[35px]">
                   14+
                 </span>
                 <p className="text-[16px] font-medium">
-                  Years of <br /> experience
+                  Yil <br /> tajriba
                 </p>
               </div>
               <div className="w-[3px] h-[80px] bg-white"></div>
-              <div className="flex xl:flex-col lg:flex-col items-center  ">
+              <div className="flex xl:flex-col lg:flex-col gap-1 items-center">
                 <span className="text-[45px] xl:mt-[-15px] font-semibold xl:text-[35px]">
                   7K+
                 </span>
                 <p className="text-[16px] font-medium ">
-                  Students <br /> each year
+                  Har Yilgi <br /> bolalar
                 </p>
               </div>
               <div className="w-[3px] h-[80px] bg-white"></div>
@@ -60,7 +63,9 @@ export default function Main() {
                   15+
                 </span>
                 <p className="text-[16px] font-medium">
-                  award <br /> wining
+                  Har yilgi
+                  <br />
+                  Yutuqlar{" "}
                 </p>
               </div>
             </div>
@@ -69,7 +74,8 @@ export default function Main() {
                 <IoIosArrowForward className="text-[#58a39f]  " />
               </div>
               <h3 className="text-[#424242] text-[18px] font-medium">
-                We believe every child is intelligent so we care.
+                Biz har bir bolaning aqlli ekanligiga ishonamiz, shuning uchun
+                biz g'amxo'rlik qilamiz.
               </h3>
             </div>
             <div className="flex gap-3  mb-[25px]">
@@ -77,13 +83,12 @@ export default function Main() {
                 <IoIosArrowForward className="text-[#58a39f]  " />
               </div>
               <h3 className="text-[#424242] text-[18px] font-medium">
-                Teachers make a difference of your child.
+                O'qituvchilar bolangizni o'zgartiradilar.
               </h3>
             </div>
-
             <div className="flex gap-10">
               <button className="text-[16px] text-[white] bg-[#ffb924] w-[260px] rounded-3xl p-[0px_48px] h-[60px] font-medium lg:mb-[30px] btn-main-hover">
-                view More
+                Batafsil koʻrish
               </button>
               <div className="flex  relative items-center  gap-4 justify-center ">
                 <div className="w-[60px] h-[60px] bg-[#fff4e7] flex justify-center items-center rounded-full  ">
@@ -97,7 +102,7 @@ export default function Main() {
                   href="#!"
                   className="text-[18px] hover:text-[#00bbae] duration-300 text-[#424242]"
                 >
-                  Promotional Video
+                  Reklama video
                 </a>
               </div>
             </div>

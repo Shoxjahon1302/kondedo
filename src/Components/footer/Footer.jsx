@@ -16,7 +16,7 @@ export default function Footer() {
             " linear-gradient(90.87deg, #ffecd6 0.69%, #09b9ad 530.75%)",
         }}
       >
-        <div className='container'>
+        <div className="container">
           <div className=" xl:p-[30px] p-[280px_0px_45px] grid grid-cols-4 xl:grid-cols-2 lg:grid-cols-1 ">
             <div className="flex flex-col  mb-[40px]">
               <img
@@ -25,8 +25,8 @@ export default function Footer() {
                 alt=""
               />
               <p className="text-[18px] font-normal text-[#424242] mb-[40px]">
-                In our Adult Participation programs, <br /> for most students,
-                it is their first <br /> program in Kindedo.
+                Kattalar ishtiroki dasturlarimizda <br /> ko'pchilik talabalar
+                uchun, Bestdagi birinchi <br /> dasturi.
               </p>
               <div className="flex gap-3">
                 <FaFacebookF className="text-[#fff] bg-[#00bbae] duration-300 rounded-full p-2 text-[40px] hover:bg-[#ff9b24]" />
@@ -36,22 +36,22 @@ export default function Footer() {
             </div>
             <div className="flex flex-col mb-[40px]">
               <h3 className="mb-[30px] text-[#1b1b1b] text-[23px] font-medium">
-                Quick links
+                Havolalar
               </h3>
               <ul className="flex flex-col ul-box-footer relative ">
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer ">
-                    About
+                    Haqida
                   </a>
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Courses
+                    Kurslar
                   </a>
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Shop
+                    Do'konlar
                   </a>
                 </li>
                 <li className="mb-[11px]">
@@ -61,29 +61,29 @@ export default function Footer() {
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Pages
+                    Sahifalar
                   </a>
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Contact
+                    Aloqa
                   </a>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col mb-[40px]">
               <h3 className="mb-[30px] text-[#1b1b1b] text-[23px] font-medium">
-                Programs
+                Ilovalar
               </h3>
               <ul className="flex flex-col ul-box-footer relative">
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Play School
+                    Maktab
                   </a>
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Nursery
+                    Bolalar bog'chasi
                   </a>
                 </li>
                 <li className="mb-[11px]">
@@ -98,19 +98,19 @@ export default function Footer() {
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Holiday Camp
+                    Dam olish lageri
                   </a>
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
-                    Day Care
+                    Kunduzgi parvarish
                   </a>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col  mb-[40px]">
               <h3 className="mb-[30px] text-[#1b1b1b] text-[23px] font-medium">
-                Contact Us
+                Biz bilan bog'lanish
               </h3>
               <div className="flex gap-2  items-center mb-[10px]">
                 <GoLocation className="w-[18px] h-6  text-[#01bbae] hover:text-[#ff9b24] duration-500" />
@@ -149,7 +149,7 @@ export default function Footer() {
             />
             <div className="">
               <h2 className="text-[18px] text-[#424242] text-center pb-[40px]">
-                Copyrighted by ©2023 BDevs
+                Mualliflik huquqi ©2023 BDevs
               </h2>
             </div>
           </div>
