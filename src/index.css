@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  body {
+    font-family: "Fredoka", sans-serif, serif;
+  }
+}
+body {
+  background-color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+::selection {
+  background: #333;
+  color: white;
+}
+.bg-none-card {
+  background: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #15bfb4;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+.animation-time-callapse {
+  transition: 5s;
+}
+.slider-item-our {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  gap: 35px;
+}
+.slider-item-our::-webkit-scrollbar {
+  display: none;
+}
+.scs-ali {
+  scroll-snap-align: start;
+}
+
+.scrool-thumb-none-btn::-webkit-scrollbar {
+  height: 10px;
+}
+#progress {
+  background: #ff9b24;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  background: #fff;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  color: #001a2e;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+.animate-img {
+  animation: animate 6s infinite;
+  position: relative;
+  top: -50px;
+  overflow: hidden;
+  /* transform: perspective(100px); */
+}
+@keyframes animate {
+  0% {
+    right: 0px;
+    transform: rotate(40deg);
+    /* top: 0px; */
+  }
+  50% {
+    right: -460px;
+    transform: rotate(-20deg);
+  }
+  100% {
+    right: -50px;
+    transform: rotate(40deg);
+  }
+}

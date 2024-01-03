@@ -1,0 +1,50 @@
+.animate-img {
+  animation: animate 6s infinite;
+  position: relative;
+  top: -50px;
+  /* transform: perspective(100px); */
+}
+@keyframes animate {
+  0% {
+    right: 0px;
+    transform: rotate(40deg);
+    /* top: 0px; */
+  }
+  50% {
+    right: -500px;
+    transform: rotate(-20deg);
+  }
+  100% {
+    right: 0px;
+    transform: rotate(40deg);
+  }
+}
+
+.btn-main-hover {
+  overflow: hidden;
+  position: relative;
+}
+.btn-main-hover::after {
+  content: "view more";
+  left: -15px;
+  top: 50px;
+  width: 280px;
+  position: absolute;
+  height: 270px;
+  /* padding: 0px 40px; */
+  padding-top: 105px;
+  color: white;
+  transition: all 0.5s ease;
+  /* display: none; */
+}
+.btn-main-hover:hover {
+  color: #fff;
+}
+.btn-main-hover:hover::after {
+  content: "view more";
+  background: #00bbae;
+  top: -85px;
+  border-radius: 50%;
+  color: white;
+  display: block;
+}
