@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          {/* <Route path="/ProgramDetail" element={<ProgramDetail />} />
+          <Route path="/ProgramDetail" element={<ProgramDetail />} />
           <Route path="/Shop" element={<Shop />} />
           <Route path="/ClassesofNew" element={<ClassesofNew />} />
           <Route path="/ClassDetails" element={<ClassDetail />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="/Programs" element={<Programs />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/About" element={<AboutPg />} />
-          <Route path="/News" element={<NewsPage />} /> */}
+          <Route path="/News" element={<NewsPage />} />
         </Routes>
         <ScrollProgressBar />
       </BrowserRouter>
