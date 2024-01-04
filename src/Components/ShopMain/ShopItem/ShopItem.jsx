@@ -100,7 +100,7 @@ export default function ShopItem() {
               )}
             </div>
           </div>
-          <div className="flex flex-wrap justify-between mb-[20px] p-[20px] ">
+          <div className="flex flex-wrap justify-between mb-[20px] p-[20px]">
             <div className="card-main sm:w-full w-[440px] xl:w-[380px] border-[0.2px] rounded-[30px] h-[601px] bg-white sm:h-auto m-auto border-[gray] relative duration-500 ease-out mb-[20px] lg:h-[540px]">
               <div className="card-main-head ">
                 <Swiper
@@ -273,7 +273,7 @@ export default function ShopItem() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-between mb-[20px] p-[20px] ">
+          <div className="flex flex-wrap justify-between mb-[20px] p-[20px]">
             <div className="card-main sm:w-full w-[440px] xl:w-[380px] border-[0.2px] rounded-[30px] h-[601px] bg-white sm:h-auto m-auto border-[gray] relative duration-500 ease-out mb-[20px] lg:h-[540px]">
               <div className="card-main-head ">
                 <Swiper
@@ -446,7 +446,7 @@ export default function ShopItem() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-between mb-[20px] p-[20px] ">
+          <div className="flex flex-wrap justify-between mb-[20px] p-[20px]">
             <div className="card-main sm:w-full w-[440px] xl:w-[380px] border-[0.2px] rounded-[30px] h-[601px] bg-white sm:h-auto m-auto border-[gray] relative duration-500 ease-out mb-[20px] lg:h-[540px]">
               <div className="card-main-head ">
                 <Swiper

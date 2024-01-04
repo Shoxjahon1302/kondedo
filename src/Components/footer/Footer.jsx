@@ -5,6 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 
 import "./footer.css";
+import { Link } from "react-router-dom";
 export default function Footer() {
   const container = "max-w-[1440px] m-auto container";
   return (
@@ -40,9 +41,9 @@ export default function Footer() {
               </h3>
               <ul className="flex flex-col ul-box-footer relative ">
                 <li className="mb-[11px]">
-                  <a href="#!" className="hover-footer ">
+                  <Link to={"/About"} className="hover-footer ">
                     Haqida
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-[11px]">
                   <a href="#!" className="hover-footer">
@@ -50,7 +51,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="mb-[11px]">
-                  <a href="#!" className="hover-footer">
+                  <a href="/Shop" className="hover-footer">
                     Do'konlar
                   </a>
                 </li>
@@ -65,7 +66,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="mb-[11px]">
-                  <a href="#!" className="hover-footer">
+                  <a href="/Contact" className="hover-footer">
                     Aloqa
                   </a>
                 </li>
@@ -77,22 +78,22 @@ export default function Footer() {
               </h3>
               <ul className="flex flex-col ul-box-footer relative">
                 <li className="mb-[11px]">
-                  <a href="#!" className="hover-footer">
+                  <a href="/Shop" className="hover-footer">
                     Maktab
                   </a>
                 </li>
                 <li className="mb-[11px]">
-                  <a href="#!" className="hover-footer">
+                  <a href="/Shop" className="hover-footer">
                     Bolalar bog'chasi
                   </a>
                 </li>
                 <li className="mb-[11px]">
-                  <a href="#!" className="hover-footer">
+                  <a href="/Shop" className="hover-footer">
                     Junior Kg
                   </a>
                 </li>
                 <li className="mb-[11px]">
-                  <a href="#!" className="hover-footer">
+                  <a href="/Shop" className="hover-footer">
                     Senior Kg
                   </a>
                 </li>
@@ -112,32 +113,23 @@ export default function Footer() {
               <h3 className="mb-[30px] text-[#1b1b1b] text-[23px] font-medium">
                 Biz bilan bog'lanish
               </h3>
-              <div className="flex gap-2  items-center mb-[10px]">
+              <div className="flex gap-2  items-center mb-[15px]">
                 <GoLocation className="w-[18px] h-6  text-[#01bbae] hover:text-[#ff9b24] duration-500" />
-                <a
-                  href="#!"
-                  className="text-[18px] font-normal text-[#424242] duration-500 hover:text-[#ff9b24]"
-                >
+                <p className="text-[18px] cursor-pointer font-normal text-[#424242] duration-500 hover:text-[#ff9b24]">
                   14/A, Kilix Home Tower,
-                </a>
+                </p>
               </div>
-              <div className="flex gap-2 items-center mb-[10px]">
+              <div className="flex gap-2 items-center mb-[15px]">
                 <BsTelephoneFill className="w-6 h-6 text-[#01bbae] hover:text-[#ff9b24] duration-500" />
-                <a
-                  href="#!"
-                  className="text-[18px] font-normal text-[#424242] duration-500 hover:text-[#ff9b24]"
-                >
+                <p className="text-[18px] cursor-pointer font-normal text-[#424242] duration-500 hover:text-[#ff9b24]">
                   NYC 907-200-3462
-                </a>
+                </p>
               </div>
-              <div className="flex gap-2 items-center mb-[10px]">
+              <div className="flex gap-2 items-center mb-[15px]">
                 <AiOutlineMail className="w-6 h-6 text-[#01bbae] hover:text-[#ff9b24] duration-500" />
-                <a
-                  href="#!"
-                  className="text-[18px] font-normal text-[#424242] duration-500 hover:text-[#ff9b24]"
-                >
+                <p className="text-[18px] cursor-pointer font-normal text-[#424242] duration-500 hover:text-[#ff9b24]">
                   Support@kindedo.com
-                </a>
+                </p>
               </div>
             </div>
           </div>

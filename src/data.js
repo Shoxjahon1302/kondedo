@@ -24,3 +24,25 @@ export const data = [
     year: "4-5",
   },
 ];
+export const teacher = [
+  {
+    img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/teacher/5.jpg",
+    ism: "Yulduz Usmonova",
+    job: "O'qituvchi",
+  },
+  {
+    img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/teacher/3.jpg",
+    ism: "Munisa Rizayeva",
+    job: "O'qituvchi",
+  },
+  {
+    img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/teacher/7.jpg",
+    ism: "Sitora Farmonova",
+    job: "O'qituvchi",
+  },
+  {
+    img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/teacher/2.jpg",
+    ism: "Nilufar Usmonova",
+    job: "O'qituvchi",
+  },
+];

@@ -80,15 +80,15 @@ export default function OurPrograms() {
                 >
                   Joylashish
                 </Link>
-                <p className="text-[#424242] m-[15px]  text-[18px]">
+                <p className="text-[#424242] m-[15px] text-[18px]">
                   {item.paragraf}
                 </p>
-                <div className="box w-[368px] h-[78px] bg-[#00bbae]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
+                <div className="box w-[368px] h-[78px] bg-[#00bbae] rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
                   <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
                     <h4 className="text-[18px] font-semibold">
                       {item.year} Yrs
                     </h4>
-                    <h5 className="text-[18px]  font-medium text-center  ">
+                    <h5 className="text-[18px]  font-medium text-center">
                       yosh
                     </h5>
                   </div>
@@ -96,7 +96,7 @@ export default function OurPrograms() {
                     <h4 className="text-[18px] font-semibold">
                       {item.year} Yrs
                     </h4>
-                    <h5 className="text-[18px]  font-medium text-center  ">
+                    <h5 className="text-[18px]  font-medium text-center">
                       yosh
                     </h5>
                   </div>
@@ -104,7 +104,7 @@ export default function OurPrograms() {
                     <h4 className="text-[18px] font-semibold">
                       {item.year} Yrs
                     </h4>
-                    <h5 className="text-[18px]  font-medium text-center  ">
+                    <h5 className="text-[18px]  font-medium text-center">
                       yosh
                     </h5>
                   </div>
@@ -112,98 +112,6 @@ export default function OurPrograms() {
               </div>
             </SwiperSlide>
           ))}
-          {/* <SwiperSlide>
-            <div className="w-[416px] x relative h-[539px] bg-[white] p-6 rounded-3xl mb-[40px]">
-              <div className="img-box overflow-hidden">
-                <img
-                  className="w-[368px] h-[245px] rounded-xl main-img"
-                  src="https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/program/home-program-2.jpg"
-                  alt=""
-                />
-                <img
-                  src={hoverimg}
-                  className="hoverimg-slider w-[120px] hoverimg-slider"
-                  alt=""
-                />
-              </div>
-              <a
-                href="#!"
-                className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#ff9b24]"
-              >
-                Jamoaviy O'yinlar
-              </a>
-              <p className="text-[#424242] m-[15px]  text-[18px]">
-                Biz sehrli tarzda maktab sport markaziga aylantiramiz.
-              </p>
-
-              <div className="box w-[368px] h-[78px] bg-[#ff9b24]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
-                <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-                <div className="flex-col flex border-dashed border-r-2 items-center pr-8     text-[white] ">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-                <div className="flex-col flex  text-[white]">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-[416px]  h-[539px] relative bg-[white] p-6 rounded-3xl mb-[40px]">
-              <div className="img-box overflow-hidden">
-                <img
-                  className="w-[368px] h-[245px] rounded-xl main-img"
-                  src="https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/program/home-program-3.jpg "
-                  alt=""
-                />
-                <img
-                  src={hoverimg}
-                  className="hoverimg-slider w-[120px] hoverimg-slider"
-                  alt=""
-                />
-              </div>
-              <a
-                href="#!"
-                className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#ff5778]"
-              >
-                Bolalar bog'chasigacha
-              </a>
-              <p className="text-[#424242] m-[15px]  text-[18px]">
-                Best nafaqat barcha bag'ishlangan 2023-yildagi uchrashuvlar yili
-                guruhlarimiz uchun dasturlar.
-              </p>
-              <div className="box w-[368px] h-[78px] bg-[#ff5778]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
-                <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-                <div className="flex-col flex border-dashed border-r-2 items-center pr-8     text-[white] ">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-                <div className="flex-col flex  text-[white]">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide> */}
         </Swiper>
       </div>
     </section>

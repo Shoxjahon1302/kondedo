@@ -111,10 +111,13 @@ export default function News({ container }) {
                       <BiCommentDetail className="text-[#00BBAE]" /> '0' Izohlar
                     </div>
                   </div>
-                  <p className="p-1  text-[23px] text-[#1b1b1b] font-medium">
+                  <Link
+                    to={"/News"}
+                    className="p-1 hover:text-[#ffb924] duration-200 text-[23px] text-[#1b1b1b] font-medium"
+                  >
                     Nima uchun maktabgacha yoshdagi bolalar uchun o'yinchoqlar
                     muhim - kichik tayyor sozlash; o'rnatish;
-                  </p>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
@@ -140,10 +143,13 @@ export default function News({ container }) {
                       <BiCommentDetail className="text-[#00BBAE]" /> '0' Izohlar
                     </div>
                   </div>
-                  <p className="p-1  text-[23px] text-[#1b1b1b] font-medium">
+                  <Link
+                    to={"/News"}
+                    className="p-1 hover:text-[#ffb924] duration-200 text-[23px] text-[#1b1b1b] font-medium"
+                  >
                     AQShdagi maktabgacha yoshdagi bolalar uchun qaysi
                     o'yinchoqlar eng yaxshisidir: tezkor qo'llanma!
-                  </p>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
