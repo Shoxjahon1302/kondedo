@@ -78,12 +78,14 @@ export default function OurPrograms() {
                   to={`/Programs/:${item.id}`}
                   className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#00bbae]"
                 >
-                  Joylashish
+                  {item.title}
                 </Link>
                 <p className="text-[#424242] m-[15px] text-[18px]">
                   {item.paragraf}
                 </p>
-                <div className="box w-[368px] h-[78px] bg-[#00bbae] rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
+                <div
+                  className={`box w-[368px] h-[78px] ${item.bg} rounded-xl text-[#424242] p-[16px_20px] flex justify-around`}
+                >
                   <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
                     <h4 className="text-[18px] font-semibold">
                       {item.year} Yrs

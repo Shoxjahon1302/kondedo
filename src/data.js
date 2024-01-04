@@ -2,26 +2,29 @@ export const data = [
   {
     id: 1,
     img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/program/home-program-1.jpg",
-    title: "Settling",
+    title: "Joylashish",
     paragraf:
-      " With connection with local licensed child care providers and other local.",
+      "Mahalliy litsenziyalangan bolalar parvarishi provayderlari va boshqa mahalliy bilan bog'lanish.",
     year: "4-5",
+    bg: "bg-yellow-600",
   },
   {
     id: 2,
     img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/program/home-program-2.jpg",
-    title: "Play group",
+    title: "Jamoaviy O'yinlar",
     paragraf:
-      " Kindedo not only for all our dedicated 2023 reunion year groups program.",
+      "Kindedo nafaqat bizning barcha bag'ishlangan 2023 yilgi yig'ilish yil guruhlari dasturimiz uchun.",
     year: "4-5",
+    bg: "bg-green-600",
   },
   {
     id: 3,
     img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/program/home-program-3.jpg",
-    title: "Pre-Nursery",
+    title: "Bolalar bog'chasigacha",
     paragraf:
-      "Kindedo not only for all our dedicated 2023 reunion year groups program.",
+      "Kindedo nafaqat bizning barcha bag'ishlangan 2023 yilgi yig'ilish yil guruhlari dasturimiz uchun.",
     year: "4-5",
+    bg: "bg-pink-600",
   },
 ];
 export const teacher = [
