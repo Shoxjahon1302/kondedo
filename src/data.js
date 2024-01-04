@@ -49,3 +49,52 @@ export const teacher = [
     job: "O'qituvchi",
   },
 ];
+export const shop = [
+  {
+    id: 1,
+    img: [
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/1.1.png",
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/1.2.png",
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/1.3.png",
+    ],
+    sell: true,
+    title: "Plush Toy Giraffe",
+    price: "23.00",
+    rate: 3,
+  },
+  {
+    id: 2,
+    img: [
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/2.1.png",
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/2.2.png",
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/2.3.png",
+    ],
+    sell: false,
+    title: "Plush Toy Giraffe",
+    price: "23.00",
+    rate: 4,
+  },
+  {
+    id: 3,
+    img: [
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/3.1.png",
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/3.2.png",
+      "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/shop/3.3.png",
+    ],
+    sell: false,
+    title: "Plush Toy Giraffe",
+    price: "23.00",
+    rate: 5,
+  },
+];
+export const news = [
+  {
+    img: "",
+    teacher: "",
+    comment: "",
+    paragraf: "",
+    year: 2022,
+    month: "January",
+    day: 22,
+  },
+];
