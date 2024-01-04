@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { BsPlayCircle } from "react-icons/bs";
 import "./main.css";
+import { NavLink } from "react-router-dom";
+import { FaXmark } from "react-icons/fa6";
 export default function Main() {
+  const [open, setOpen] = useState(false);
   return (
     <main className="bg-white">
       <div className="cotntainer">
@@ -87,13 +90,13 @@ export default function Main() {
               </h3>
             </div>
             <div className="flex gap-10">
-              <button className="text-[16px] text-[white] bg-[#ffb924] w-[260px] rounded-3xl p-[0px_48px] h-[60px] font-medium lg:mb-[30px] btn-main-hover">
-                Batafsil koʻrish
-              </button>
-              <div className="flex  relative items-center  gap-4 justify-center ">
+              <div
+                className="flex  relative items-center  gap-4 justify-center cursor-pointer"
+                onClick={() => setOpen(!open)}
+              >
                 <div className="w-[60px] h-[60px] bg-[#fff4e7] flex justify-center items-center rounded-full  ">
                   <BsPlayCircle
-                    className="w-[40px] h-[40px] "
+                    className="w-[40px] h-[40px]"
                     color=" #bf9460"
                   />
                 </div>
@@ -102,13 +105,31 @@ export default function Main() {
                   href="#!"
                   className="text-[18px] hover:text-[#00bbae] duration-300 text-[#424242]"
                 >
-                  Reklama video
+                  Videoni ko'rish
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {open && (
+        <div className="fixed top-0 left-0 bg-black/70 w-full h-full z-50 p-[10px_40px]">
+          <div
+            className="text-white w-full flex items-center justify-end text-2xl mb-2 cursor-pointer"
+            onClick={() => setOpen(!open)}
+          >
+            <FaXmark />
+          </div>
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/MlNNGeusB7M?si=t9F0YInWRqNgDQn8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      )}
     </main>
   );
 }

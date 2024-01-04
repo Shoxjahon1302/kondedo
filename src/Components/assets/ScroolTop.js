@@ -30,7 +30,7 @@ const ScrollProgressBar = () => {
   }, []);
 
   return (
-    <div id="progress" className="z-[10000]">
+    <div id="progress" className="z-40">
       <span id="progress-value">&#x1F815;</span>
     </div>
   );

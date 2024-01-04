@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import "./teacher.css";
+import { Link } from "react-router-dom";
 export default function Teacher() {
   return (
     <div className="p-[120px_0px] bg-white w-full">
@@ -31,7 +32,7 @@ export default function Teacher() {
             },
 
             1440: {
-              slidesPerView: 3,
+              slidesPerView: 4,
             },
             1410: {
               slidesPerView: 2,
@@ -75,9 +76,12 @@ export default function Teacher() {
                     "linear-gradient(100.88deg, #EBFFFE 0.6%, #FFF6EB 100%)",
                 }}
               >
-                <h3 className="text-[23px] text-[#1b1b1b] text-center font-medium">
+                <Link
+                  to={"/TeacherDetail/:id"}
+                  className="text-[23px] text-[#1b1b1b] hover:text-[#FF9B24] duration-200 text-center font-medium"
+                >
                   Nilufar Usmonova
-                </h3>
+                </Link>
                 <p className="text-[16px] text-[#1b1b1b] text-center font-normal">
                   O'qituvchi
                 </p>

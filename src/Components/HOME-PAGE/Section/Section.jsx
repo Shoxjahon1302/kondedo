@@ -82,19 +82,16 @@ export default function Section() {
                   />
                 </div>
                 <div className="flex  justify-center items-center">
-                  <a
-                    href="#!"
-                    className="text-[32px] mt-[20px] text-[#1b1b1b] font-semibold text-center title-card "
-                  >
+                  <h1 className="text-[32px] mt-[20px] text-[#1b1b1b] font-semibold text-center title-card ">
                     Sport Sinfi
-                  </a>
+                  </h1>
                 </div>
                 <p className="text-[18px] text-[#424242] mt-[20px] font-normal text-center text-card">
                   Onalar iftixoridagi har bir kun bayramdir! Biz barchasini
                   nishonlaymiz.
                 </p>
                 <div className="flex justify-center mt-9">
-                  <Link to="/ClassDetails">
+                  <Link to="/Programs/:id">
                     <button className=" btn-nonoeasd  w-[173px] h-[50px] rounded-3xl border-[#FF9B24] border">
                       Tanishib Chiqish
                     </button>

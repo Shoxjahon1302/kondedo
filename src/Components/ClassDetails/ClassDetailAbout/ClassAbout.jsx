@@ -3,6 +3,7 @@ import ReactSimplyCarousel from "react-simply-carousel";
 import { AiOutlineCalendar, AiOutlineClockCircle } from "react-icons/ai";
 import { GiTeacher } from "react-icons/gi";
 import { IoIosPeople } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 export default function ClassAbout() {
   const SliderImg = "w-[606px] h-[505px] rounded-[50px] ";
   const textP = "text-[18px] mb-[20px] text-[#424242] font-normal";
@@ -12,9 +13,20 @@ export default function ClassAbout() {
     "w-[120px] h-[120px] items-center m-auto bg-slate-500 rounded-full flex justify-center text-white ";
   const cardStyle =
     "flex flex-col mb-[45px] md:w-full w-[290px] h-[290px] bg-[#fff6eb] p-[25px] rounded-2xl card-shadow";
+
+  const data = [
+    {
+      img: "https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/class/6.jpg",
+      title: "Settling",
+      paragraf: `The foundation of the Montessori philosophy is based upon the idea
+      that children should work at their own pace, according to their own
+      strengths in surroundings that help to develop their intelligence,
+      as well as social and physical abilities.`,
+    },
+  ];
+
   return (
     <div className="container max-w-[1440px] w-full m-auto">
-      {" "}
       <div className="flex flex-wrap items-center   md:p-[30px]  w-full justify-evenly mb-[20px]">
         <div className="w-[50% ] overflow-hidden  xl:m-auto mt-[40px] mb-[40px] rounded-[50px] ">
           <img
@@ -24,9 +36,12 @@ export default function ClassAbout() {
           />
         </div>
         <div className=" xl:m-auto  rounded-3xl mt-[40px] mb-[40px] w-[606px] h-[505px] bg-[#fff6eb] p-[30px_32px_50px] xl:w-[936px] xl:h-[438px] lg:w-[606px] lg:h-[505px] md:h-auto md:p-[25px]">
-          <h3 className="text-[45px] mb-[20px] md:text-[30px] text-[#1b1b1b] font-semibold">
+          <NavLink
+            to={"Programs/:id"}
+            className="text-[45px] mb-[20px] md:text-[30px] text-[#1b1b1b] font-semibold"
+          >
             Settling
-          </h3>
+          </NavLink>
           <p className={textP}>
             The foundation of the Montessori philosophy is based upon the idea
             that children should work at their own pace, according to their own

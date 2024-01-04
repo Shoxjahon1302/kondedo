@@ -5,6 +5,7 @@ import "./News.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import { Link } from "react-router-dom";
 
 export default function News({ container }) {
   return (
@@ -78,10 +79,13 @@ export default function News({ container }) {
                       <BiCommentDetail className="text-[#00BBAE]" /> '0' Izohlar
                     </div>
                   </div>
-                  <p className="p-1 text-[23px] text-[#1b1b1b] font-medium">
+                  <Link
+                    to={"/News"}
+                    className="p-1 hover:text-[#ffb924] duration-200 text-[23px] text-[#1b1b1b] font-medium"
+                  >
                     Farzandingizni yaxshiroq tushunish uchun maslahatlar
                     -Ota-onalar uchun qo'llanma!
-                  </p>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>

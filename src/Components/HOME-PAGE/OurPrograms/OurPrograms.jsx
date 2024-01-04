@@ -1,12 +1,11 @@
 import React from "react";
-
 import "./OurProgram.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import { data } from "../../../data";
+import { Link } from "react-router-dom";
 export default function OurPrograms() {
   const hoverimg =
     "https://www.freepnglogos.com/uploads/shape-png/organic-shape-world-reference-14.png";
@@ -60,53 +59,60 @@ export default function OurPrograms() {
             },
           }}
         >
-          <SwiperSlide>
-            <div className="w-[416px]  h-[539px] relative bg-[white] p-6 rounded-3xl mb-[40px]">
-              <div className="img-box overflow-hidden">
-                <img
-                  className="w-[368px] h-[245px] rounded-xl main-img"
-                  src="https://codeskdhaka.com/html/kindedo-prev/kindedo/assets/img/program/home-program-1.jpg "
-                  alt=""
-                />
-                <img
-                  src={hoverimg}
-                  className="hoverimg-slider w-[120px]"
-                  alt=""
-                />
+          {data.map((item) => (
+            <SwiperSlide>
+              <div className="w-[416px]  h-[539px] relative bg-[white] p-6 rounded-3xl mb-[40px]">
+                <div className="img-box overflow-hidden">
+                  <img
+                    className="w-[368px] h-[245px] rounded-xl main-img"
+                    src={item.img}
+                    alt=""
+                  />
+                  <img
+                    src={hoverimg}
+                    className="hoverimg-slider w-[120px]"
+                    alt=""
+                  />
+                </div>
+                <Link
+                  to={`/Programs/:${item.id}`}
+                  className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#00bbae]"
+                >
+                  Joylashish
+                </Link>
+                <p className="text-[#424242] m-[15px]  text-[18px]">
+                  {item.paragraf}
+                </p>
+                <div className="box w-[368px] h-[78px] bg-[#00bbae]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
+                  <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
+                    <h4 className="text-[18px] font-semibold">
+                      {item.year} Yrs
+                    </h4>
+                    <h5 className="text-[18px]  font-medium text-center  ">
+                      yosh
+                    </h5>
+                  </div>
+                  <div className="flex-col flex border-dashed border-r-2 items-center pr-8     text-[white] ">
+                    <h4 className="text-[18px] font-semibold">
+                      {item.year} Yrs
+                    </h4>
+                    <h5 className="text-[18px]  font-medium text-center  ">
+                      yosh
+                    </h5>
+                  </div>
+                  <div className="flex-col flex  text-[white]">
+                    <h4 className="text-[18px] font-semibold">
+                      {item.year} Yrs
+                    </h4>
+                    <h5 className="text-[18px]  font-medium text-center  ">
+                      yosh
+                    </h5>
+                  </div>
+                </div>
               </div>
-              <a
-                href="#!"
-                className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#00bbae]"
-              >
-                Joylashish
-              </a>
-              <p className="text-[#424242] m-[15px]  text-[18px]">
-                Dam olish kunlarini nishonlash uchun biz bayramimizni
-                o'tkazmoqdamiz.
-              </p>
-              <div className="box w-[368px] h-[78px] bg-[#00bbae]  rounded-xl text-[#424242] p-[16px_20px] flex justify-around">
-                <div className="flex-col flex border-dashed border-r-2 text-[white] items-center pr-8">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-                <div className="flex-col flex border-dashed border-r-2 items-center pr-8     text-[white] ">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-                <div className="flex-col flex  text-[white]">
-                  <h4 className="text-[18px] font-semibold">4-5 Yrs</h4>
-                  <h5 className="text-[18px]  font-medium text-center  ">
-                    yosh
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
+            </SwiperSlide>
+          ))}
+          {/* <SwiperSlide>
             <div className="w-[416px] x relative h-[539px] bg-[white] p-6 rounded-3xl mb-[40px]">
               <div className="img-box overflow-hidden">
                 <img
@@ -197,7 +203,7 @@ export default function OurPrograms() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </section>

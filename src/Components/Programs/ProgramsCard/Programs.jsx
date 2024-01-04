@@ -1,7 +1,9 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function ProgramsCard() {
   const hoverimg = "";
+
   return (
     <div className="container max-w-[1440px] m-auto">
       <div className="flex justify-between flex-wrap md:w-full p-[20px]">
@@ -18,12 +20,12 @@ export default function ProgramsCard() {
               alt=""
             />
           </div>
-          <a
-            href="#!"
+          <NavLink
+            to={"/Programs/:id"}
             className="text-[#1b1b1b] text-[32px] font-semibold m-[15px] duration-300 hover:text-[#ff9b24]"
           >
             Settling
-          </a>
+          </NavLink>
           <p className="text-[#424242] m-[15px]  text-[18px] text-center">
             With connection with local licensed child care providers and other
             local.
@@ -83,7 +85,6 @@ export default function ProgramsCard() {
             </div>
           </div>
         </div>
-
         <div className="w-[416px] scs-ali h-[539px] relative bg-[#FFEBEF] p-6 rounded-3xl mb-[40px] md:w-full">
           <div className="img-box overflow-hidden">
             <img
@@ -203,7 +204,6 @@ export default function ProgramsCard() {
             </div>
           </div>
         </div>
-
         <div className="w-[416px] scs-ali h-[539px] relative bg-[#ebebff] p-6 rounded-3xl mb-[40px] md:w-full">
           <div className="img-box overflow-hidden">
             <img
