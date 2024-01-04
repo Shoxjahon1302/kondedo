@@ -8,7 +8,7 @@ import { FaClock } from "react-icons/fa";
 import { PiSquaresFourThin } from "react-icons/pi";
 import { MdOutlinePhone } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { FaXmark } from "react-icons/fa6";
 import { CiSearch } from "react-icons/ci";
 import "./Header.css";
@@ -62,27 +62,27 @@ export default function Header() {
           src="https://codeskdhaka.com/wp/kindedo/wp-content/uploads/2023/02/Group-751.png"
           alt=""
         />
-        <div className={` gap-5 flex items-center lg:hidden`}>
+        <div className={`gap-5 flex items-center lg:hidden`}>
           <NavLink
-            to="/News"
+            to="/"
             className="hover:text-[#FF9B24] sm:border-b duration-200 font-normal leading-[30px] text-lg"
           >
             Bosh Sahifa
           </NavLink>
           <NavLink
-            to="/News"
+            to="/Course"
             className="hover:text-[#FF9B24] sm:border-b duration-200 font-normal leading-[30px] text-lg"
           >
             Kurslar
           </NavLink>
           <NavLink
-            to="/News"
+            to="/Shop"
             className="hover:text-[#FF9B24] sm:border-b duration-200 font-normal leading-[30px] text-lg"
           >
             Do'kon
           </NavLink>
           <NavLink
-            to="/News"
+            to="/Pages"
             className="hover:text-[#FF9B24] sm:border-b duration-200 font-normal leading-[30px] text-lg"
           >
             Sahifalar
@@ -94,7 +94,7 @@ export default function Header() {
             Yangiliklar
           </NavLink>
           <NavLink
-            to="/News"
+            to="/Contact"
             className="hover:text-[#FF9B24] sm:border-b duration-200 font-normal leading-[30px] text-lg"
           >
             Aloqa
@@ -104,33 +104,33 @@ export default function Header() {
           </p>
         </div>
         {isMenuOpen && (
-          <div className="fixed right-0 flex flex-col top-0 bg-white z-50 w-1/3 h-full p-5 shadow-lg overflow-x-auto">
+          <div className="fixed right-0 flex flex-col top-0 bg-white z-50 w-1/3 sm:w-1/4 h-full p-5 shadow-lg overflow-x-auto">
             <span onClick={openMenu} className={`cursor-pointer mb-3`}>
               <FaXmark />
             </span>
             <div
-              className={` gap-5 sm:flex flex-col items-start hidden lg:flex l`}
+              className={` gap-5 sm:flex flex-col items-start hidden lg:flex `}
             >
               <NavLink
-                to="/News"
+                to="/"
                 className="hover:text-[#FF9B24] lg:border-b duration-200 w-full font-normal leading-[30px] text-lg"
               >
                 Bosh Sahifa
               </NavLink>
               <NavLink
-                to="/News"
+                to="/asd"
                 className="hover:text-[#FF9B24] lg:border-b duration-200 w-full font-normal leading-[30px] text-lg"
               >
                 Kurslar
               </NavLink>
               <NavLink
-                to="/News"
+                to="/Shop"
                 className="hover:text-[#FF9B24] lg:border-b duration-200 w-full font-normal leading-[30px] text-lg"
               >
                 Do'kon
               </NavLink>
               <NavLink
-                to="/News"
+                to="/rwef"
                 className="hover:text-[#FF9B24] lg:border-b duration-200 w-full font-normal leading-[30px] text-lg"
               >
                 Sahifalar
@@ -142,7 +142,7 @@ export default function Header() {
                 Yangiliklar
               </NavLink>
               <NavLink
-                to="/News"
+                to="/Contact"
                 className="hover:text-[#FF9B24] lg:border-b duration-200 w-full font-normal leading-[30px] text-lg"
               >
                 Aloqa
@@ -239,6 +239,7 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <Outlet />
     </>
   );
 }

@@ -13,7 +13,6 @@ import Email from "../Email/Email";
 export default function Home() {
   return (
     <>
-      <Header />
       <Section />
       <Main />
       <OurPrograms />
@@ -23,7 +22,6 @@ export default function Home() {
       {/* <Parents />/ */}
       <News />
       <Email />
-      <Footer />
     </>
   );
 }

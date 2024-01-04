@@ -13,7 +13,6 @@ export default function ClassesofNew() {
       <ShopParents />
       <ClassesAbout />
       <Email />
-      <Footer />
     </>
   );
 }
