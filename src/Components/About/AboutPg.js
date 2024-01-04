@@ -7,7 +7,6 @@ import ShopParents from "../ShopMain/ShopParent/ShopParents";
 import Teacher from "../HOME-PAGE/teachers/Teacher";
 import AboutNumber from "./AboutNumber/AboutNumber";
 import Email from "../Email/Email";
-import Footer from "../footer/Footer";
 export default function AboutPg() {
   return (
     <>
@@ -19,7 +18,6 @@ export default function AboutPg() {
       <Teacher />
       <AboutNumber />
       <Email />
-      <Footer />
     </>
   );
 }

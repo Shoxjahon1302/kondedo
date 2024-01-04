@@ -6,7 +6,6 @@ import ProgramIntroduce from "./ProgramIntroduce/ProgramIntroduce";
 import ProgramLearning from "./ProgramLearning/ProgramLearning";
 import Grades from "./TypeofGrades/Grades";
 import Email from "../Email/Email";
-import Footer from "../footer/Footer";
 export default function ProgramDetail() {
   const container = "container max-w-[1440px] m-auto";
   return (
@@ -18,7 +17,6 @@ export default function ProgramDetail() {
       <NewSession container={container} />
       <Grades />
       <Email />
-      <Footer />
     </>
   );
 }

@@ -12,7 +12,6 @@ import Programs from "./Components/Programs/Programs";
 import Contact from "./Components/Contact/Contact";
 import AboutPg from "./Components/About/AboutPg";
 import NewsPage from "./Components/NewsPage/NewsPage";
-import Header from "./Components/HOME-PAGE/Header/Header";
 import Layout from "./Components/Layout";
 
 function App() {

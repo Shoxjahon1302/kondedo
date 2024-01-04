@@ -20,7 +20,7 @@ export default function AboutofContent() {
               answer in a lesson when <br /> you’re simply really trying new.
             </p>
             <div
-              className="w-[611px] h-[124px] md:h-auto   flex justify-between p-[20px]  rounded-2xl border items-center  border-[#e6e6e6] md:w-auto md:flex-wrap"
+              className="w-[611px] h-[124px] md:h-auto flex justify-between items-center p-[20px] rounded-2xl border border-[#e6e6e6] md:w-auto md:flex-wrap"
               style={{
                 backgroundImage:
                   "linear-gradient(100.88deg, #EBFFFE 0.6%, #FFF6EB 100%)",
